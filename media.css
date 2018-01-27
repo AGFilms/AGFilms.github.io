@@ -1,0 +1,1589 @@
+
+@media (max-width: 590px){
+/*
+  ========================================
+  Общие стили
+  ========================================
+*/
+	.container {
+		width: 100%;
+		padding: 0 20px;
+	}	
+/*
+  ========================================
+  Хедер
+  ========================================
+*/
+	header{
+		height: 567px;
+		padding-top: 160px;
+		text-align: left;
+		background: url(../img/header/header.jpg) 0 0 no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.text1_1{
+		font-size: 32px;
+	}
+	.down_centr{
+		position: static;
+		height: 100%;
+		margin-top: 0;
+	}
+	.down{
+		position: absolute;
+		bottom: 30px;
+	}
+	a.tel:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+/*
+  ========================================
+  Меню	
+  ========================================
+*/
+	.menu-trigger {
+        display:block;
+        background: 
+          url(../img/header/Logo_header_Orange.svg) 30px 50% no-repeat,
+          url(../img/header/Menu.svg) 95% 50% no-repeat;
+  	}
+  	a.menu-trigger {
+        color: rgba(0, 0, 0, 0);
+  	}
+  	a.menu-trigger:hover {
+        color: rgba(0, 0, 0, 0);
+  	}
+  	nav{
+  		position: fixed;
+  		top: 0;
+  		background-color: #fff;
+  		z-index: 999999;
+  		width: 100%;
+  		max-height: 100vh;
+  		text-align: left;
+  		overflow-y: auto; 
+  		box-shadow: 0 2px 6px rgba(0, 0, 0, .25);
+  	}
+  	nav ul li {
+	    display: block;   
+  	}
+	nav ul {
+	    display:none;
+	}
+	nav a {
+		color: rgba(0, 0, 0, 1); 
+		padding:20px 30px; 
+	}
+	nav a:hover {
+		color: rgba(0, 0, 0, 1);
+	}
+	a.logo {
+		display: none;
+		color: rgba(0, 0, 0, 0);
+		width: 200px;
+		height: 60px;
+		background: url(../img/header/Logo_header_black.svg) 30px 50% no-repeat;
+	}
+	a.logo:hover {
+		color: rgba(0, 0, 0, 0);
+	}
+	.left {
+		float: none;
+	}
+/*Дропдаун*/
+	span.lang {
+		display: none;
+		/*display: block;*/
+	}
+	.drop_down {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 0;
+		padding: 0;
+		margin-top: 0;
+		box-shadow: none;
+		text-align: left;
+		padding-left: 30px;
+		border-top: 1px solid #f07723;
+	}
+	.drop_down li{
+		display: inline-block;
+	} 
+	.drop_down a{
+		display: inline-block;
+		color: #000;
+		padding: 0;
+		border-radius: 0;
+		padding: 20px 10px 20px 0;
+	}
+	.drop_down a:hover{
+		background-color: #fff;
+		color: #000;
+		box-shadow: none;
+	}
+/*
+  ========================================
+  Про нас
+  ========================================
+*/	
+	.section_2{
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}
+	.text_2_1 {
+		font-size: 32px;
+	}
+	.text_2_2{
+		font-size: 16px;
+		margin-bottom: 56px;
+		width: 100%;
+	}
+	.flex_container_2_1{
+		flex-flow: column-reverse nowrap;
+		margin-bottom: 24px;
+	}
+	.flex_container_2_2{
+		flex-flow: column nowrap;
+	}
+	.item_2{
+		width: 100%;
+		height: auto;
+	}
+	.item_2_1{
+		text-align: left;
+	}
+	.item_2_2{
+		text-align: center;
+		margin-bottom: 48px;
+	}
+	.item_2_3{
+		margin-bottom: 48px;
+		width: 100%;
+	}
+	.item_2_3 img{
+		width: 100%;
+		height: auto;
+	}
+	.item_2_4{
+	}
+	.text_2_3{
+		font-size: 24px;
+	}
+	.text_2_4{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.text_2_5{
+		margin-bottom: 54px;
+		width: 100%;
+	}
+	/*video{
+		width: 100%;
+		height: auto;	
+	}
+	object{
+		width: 100%;
+		height: auto;	
+	}*/
+	div.movie figure {
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 */
+		position: relative;
+		width: 100%;
+	}
+	div.movie iframe {
+	    height: 100%;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 100%;
+	}
+/*
+  ========================================
+  Як ми працюємо
+  ========================================
+*/	
+	.section_3{
+		padding-top: 80px;
+		padding-bottom: 88px;
+	}
+	.text_3_2{
+		font-size: 16px;
+	    margin-bottom: 56px;
+	}
+	.flex_container_3_1{
+		flex-flow: column-reverse nowrap;
+		margin-bottom: 64px;
+	}
+	.item_3_1{
+		width: 100%;
+		text-align: center;
+	}
+	.item_3_1 img{
+		width: 100%;
+		height: auto;
+	}
+	.item_3_1_1{
+		width: 100%;
+		text-align: left;
+		margin: 0;
+	} 
+	.item_3_1_2{
+		margin-bottom: 48px;
+	} 
+	.text_3_3{
+	    font-size: 24px;
+	}
+	.text_3_4{
+	    width: 100%;
+	}
+	.item_3_2{
+		width: 330px;
+	}
+	.item_3_2_1{
+		margin-bottom: 32px;
+	}
+	.item_3_2_2{
+		margin-bottom: 32px;
+	}
+	.text_3_5{
+		font-size: 20px;
+	}
+	.text_3_6{
+		width: 100%;
+	}	
+/*
+  ========================================
+  Команда
+  ========================================
+*/	
+	.bg_section_4{
+		background-color: #ffffff;
+	}
+	.section_4{
+		padding-top: 88px;
+		text-align: center;
+	}
+	.flex_container_4{
+		display: column;
+		flex-wrap: wrap;
+	}
+	.item_4{
+		width: 100%;
+	}
+	.item_4_1{
+		text-align: left;
+		margin-bottom: 56px;
+	}
+	.item_4_2{
+		text-align: center;
+	}
+	/*TabBar*/
+	ul.tab-control{
+		list-style: none;
+		margin-bottom: 50px;
+	}
+	ul.tab-control li {
+		display: inline-block;
+		width: 42px;
+    	height: 42px;
+    	background-color: #ccc;
+    	border-radius: 100px;
+    	cursor: pointer;
+	}
+	ul.tab-content{
+		list-style: none;
+	}
+	.text4_1{
+		font-size: 30px;
+    	color: #454545;
+    	font-weight: 400;
+    	margin-bottom: 16px;
+	}
+	.text4_2{
+		font-size: 20px;
+	    letter-spacing: 0.8px;
+	    color: #454545;
+	    margin-bottom: 10px;
+	}
+	.text4_3{
+		width: 100%;
+		font-size: 16px;
+	    line-height: 1.5;
+	    color: #454545;
+	    margin-bottom: 32px;
+	}
+	/*Таб от Сани*/
+	.tab_wrapper{
+		margin-bottom: 48px;
+	}
+
+	.tab_control {
+	    height: 40px;
+	    width: 40px;
+	    border-radius: 40px;
+	    margin-right: 10px;
+	    opacity: 0.5;
+	}
+	.cur_tab_control {
+	    opacity: 1;
+	}
+	.story {
+	    display: none;
+	}
+	.cur_story {
+	    display: inline-block;
+	}
+	.pics{
+		width: 80%;
+		height: auto;
+		border-radius: 8px;
+		box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.25);
+	}
+	.line_4_1{
+		width: 64px;
+		margin: 0 auto 24px 0;
+		height: 2px;
+		background-color: #f07723;
+		color: #f07723;
+		border: none;
+	}
+/*	
+  ========================================
+  Отзивы о нас
+  ========================================
+*/	
+	.comments{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.section_5{
+		text-align: center;
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}	
+/*	
+  ========================================
+  Напишіть нам
+  ========================================
+*/	
+	.section_6{
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}
+	.text_6_1 {
+		font-size: 32px;
+	}
+	.text_6_2{
+		width: 100%;
+	}
+	.flex_container_6{
+		flex-flow: column nowrap;
+	}
+	.item_6{
+		width: 100%;
+	}
+	.item_6_1{
+		margin-bottom: 56px;
+	}
+	.text_6_3{
+		text-align: left;
+	}
+	.line_6{
+		color: #fff;
+		width: 20%;
+		margin: 0 auto 24px;
+	}
+	.item_s_1{
+	}
+	.item_6_s{
+		width: 100%;
+	}	
+	.margin_none{
+		margin-bottom: 0;
+	}
+	.line_6{
+		color: #fff;
+		width: 20%;
+		margin: 0 0 32px 0;
+	}	
+	.flex_container_6_s{
+		flex-direction: column;
+		width: 100%;
+	}
+	.text_6_5{
+		margin-bottom: 24px;
+	}
+/*	
+  ========================================
+  Стили формы
+  ========================================
+*/	
+	form{
+		width: 100%;
+	}	
+/*	
+  ========================================
+  Стили кнопок
+  ========================================
+*/
+	.btn_1_1{
+		font-size: 14px;
+		margin: 0 0 24px 0;
+	}
+	.btn_1_2{
+		display: none;
+	}
+	.btn_2_1:hover{
+		background-position: 0 0;
+	}
+	.btn_2_2:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4:hover{
+		background-position: 0 0;
+	}
+	/*Черный цвет соц сетей*/
+	.btn_2_1_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4_black:hover{
+		background-position: 0 0;
+	}
+/*	
+  ========================================
+  Тут Ви можете сказати дякую
+  ========================================
+*/	
+	.section_7{
+		padding-top: 88px;
+		padding-bottom: 88px;
+	}
+	.text_7_1 {
+		font-size: 32px;
+	}	
+	.text_7_2{
+		width: 100%;
+		font-size: 16px;
+	}	
+/*	
+  ========================================
+  Footer
+  ========================================
+*/	
+	.section_8{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		text-align: center;
+	}
+	.flex_container_footer_1{
+		flex-flow: column nowrap;
+		margin-bottom: 24px;
+	}
+	.item_footer_1{
+		width: 100%;
+	}
+	.item_footer_1_1{
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.item_footer_1_2{
+		margin-bottom: 24px;
+	}
+	.item_footer_1_3{
+		text-align: center;
+	}
+	.flex_container_footer_2{
+		display: none;
+	}	
+/*	
+  ========================================
+  Партнеры
+  ========================================
+*/
+	.flexcontainer_partners {
+		display: none;
+	}		
+}
+@media screen and (min-width:591px) and (max-width: 939px){
+/*
+  ========================================
+  Общие стили
+  ========================================
+*/
+	.container {
+		width: 100%;
+		padding: 0 25px;
+	}
+/*
+  ========================================
+  Хедер
+  ========================================
+*/
+	header{
+		height: 768px;
+		padding-top: 274px;
+		text-align: left;
+		background: url(../img/header/header.jpg) 0 0 no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.text1_1 {
+		font-size: 36px;
+	}
+	.down_centr{
+		position: static;
+		height: 100%;
+		margin-top: 0;
+	}
+	.down{
+		position: absolute;
+		bottom: 50px;
+	}
+	.margin_r{
+		margin-right: 0;
+	}
+	a.tel:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+/*
+  ========================================
+  Меню	
+  ========================================
+*/
+	.menu-trigger {
+        display:block;
+        background: 
+          url(../img/header/Logo_header_Orange.svg) 30px 50% no-repeat,
+          url(../img/header/Menu.svg) 95% 50% no-repeat;
+  	}
+  	a.menu-trigger {
+        color: rgba(0, 0, 0, 0);
+  	}
+  	a.menu-trigger:hover {
+        color: rgba(0, 0, 0, 0);
+  	}
+  	nav{
+  		position: fixed;
+  		top: 0;
+  		background-color: #fff;
+  		z-index: 999999;
+  		width: 100%;
+  		max-height: 100vh;
+  		text-align: left;
+  		overflow-y: auto; 
+  		box-shadow: 0 2px 6px rgba(0, 0, 0, .25);
+  	}
+  	nav ul li {
+	    display:block;   
+  	}
+	nav ul {
+	    display:none;
+	}
+	nav a {
+		color: rgba(0, 0, 0, 1); 
+		padding:20px 30px; 
+	}
+	nav a:hover {
+		color: rgba(0, 0, 0, 1);  
+	}
+	a.logo {
+		display: none;
+		color: rgba(0, 0, 0, 0);
+		width: 200px;
+		height: 60px;
+		background: url(../img/header/Logo_header_black.svg) 30px 50% no-repeat;
+	}
+	.left {
+		float: none;
+	}
+/*Дропдаун*/
+	span.lang {
+		display: none;
+		/*display: block;*/
+	}
+	.drop_down {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 0;
+		padding: 0;
+		margin-top: 0;
+		box-shadow: none;
+		text-align: left;
+		padding-left: 30px;
+		border-top: 1px solid #f07723;
+	}
+	.drop_down li{
+		display: inline-block;
+	} 
+	.drop_down a{
+		display: inline-block;
+		color: #000;
+		padding: 0;
+		border-radius: 0;
+		padding: 20px 10px 20px 0;
+	}
+	.drop_down a:hover{
+		background-color: #fff;
+		color: #000;
+		box-shadow: none;
+	}
+/*
+  ========================================
+  Про нас
+  ========================================
+*/	
+	.section_2{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+	.text_2_2{
+	    margin-bottom: 64px;
+	    width: 100%;
+	}
+	.flex_container_2_1{
+		flex-flow: column-reverse nowrap;
+		margin-bottom: 56px;
+	}
+	.flex_container_2_2{
+		flex-flow: column nowrap;
+	}
+	.item_2{
+		width: 100%;
+	}
+	.item_2_1{
+		text-align: left;
+	}
+	.item_2_2{
+		text-align: center;
+		margin-bottom: 56px;
+	}
+	.item_2_3{
+		margin-bottom: 64px;
+	}
+	.item_2_3 img{
+		width: 60%;
+		height: auto;
+	}
+	.item_2_4{
+		text-align: left;
+	}
+	.text_2_4{
+		margin-bottom: 16px;
+	}
+	.text_2_5{
+		width: 85%;
+		margin-bottom: 0;
+	}	
+	/*video{
+		width: 100%;
+		height: auto;	
+	}
+	object{
+		width: 100%;
+		height: auto;	
+	}*/
+	div.movie figure {
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 */
+		position: relative;
+		width: 100%;
+	}
+	div.movie iframe {
+	    height: 100%;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 100%;
+	}
+/*
+  ========================================
+  Як ми працюємо
+  ========================================
+*/	
+	.section_3{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+	.text_3_2{
+	    margin-bottom: 64px;
+	}
+	.flex_container_3_1{
+		flex-flow: column-reverse nowrap;
+		margin-bottom: 64px;
+	}
+	.item_3_1{
+		width: 100%;
+		text-align: center;
+	}
+	.item_3_1 img{
+		width: 100%;
+		height: auto;
+	}
+	.item_3_1_1{
+		width: 100%;
+		text-align: left;
+		margin: 0;
+	} 
+	.item_3_1_2{
+		margin-bottom: 64px;
+	} 
+	.item_3_2_2{
+		margin-bottom: 32px;
+	}
+	.text_3_4{
+	    width: 80%;
+	}
+	.item_3_2{
+		width: 330px;
+		text-align: left;
+	}
+	.item_3_2_1{
+		margin-bottom: 32px;
+	}
+	.text_3_6{
+    	width: 100%;
+	}
+/*
+  ========================================
+  Команда
+  ========================================
+*/	
+	.bg_section_4{
+		background-color: #ffffff;
+	}
+	.section_4{
+		padding-top: 104px;
+		text-align: center;
+	}
+	.flex_container_4{
+		display: column;
+		flex-wrap: wrap;
+	}
+	.item_4{
+		width: 100%;
+	}
+	.item_4_1{
+		text-align: left;
+		margin-bottom: 64px;
+	}
+	.item_4_2{
+		text-align: center;
+	}
+	/*TabBar*/
+	ul.tab-control{
+		list-style: none;
+		margin-bottom: 50px;
+	}
+	ul.tab-control li {
+		display: inline-block;
+		width: 42px;
+    	height: 42px;
+    	background-color: #ccc;
+    	border-radius: 100px;
+    	cursor: pointer;
+	}
+	ul.tab-content{
+		list-style: none;
+	}
+	.text4_1{
+		font-size: 30px;
+    	color: #454545;
+    	font-weight: 400;
+    	margin-bottom: 16px;
+	}
+	.text4_2{
+		font-size: 20px;
+	    letter-spacing: 0.8px;
+	    color: #454545;
+	    margin-bottom: 10px;
+	}
+	.text4_3{
+		width: 90%;
+		font-size: 16px;
+	    line-height: 1.5;
+	    color: #454545;
+	    margin-bottom: 32px;
+	}
+	/*Таб от Сани*/
+	.tab_wrapper{
+		margin-bottom: 48px;
+	}
+
+	.tab_control {
+	    height: 40px;
+	    width: 40px;
+	    border-radius: 40px;
+	    margin-right: 10px;
+	    opacity: 0.5;
+	}
+	.cur_tab_control {
+	    opacity: 1;
+	}
+	.story {
+	    display: none;
+	}
+	.cur_story {
+	    display: inline-block;
+	}
+	.pics{
+		width: 70%;
+		height: auto;
+		border-radius: 8px;
+		box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.25);
+	}
+	.line_4_1{
+		width: 64px;
+		margin: 0 auto 24px 0;
+		height: 2px;
+		background-color: #f07723;
+		color: #f07723;
+		border: none;
+	}
+/*	
+  ========================================
+  Отзивы о нас
+  ========================================
+*/	
+	.comments{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.section_5{
+		text-align: center;
+		padding-top: 104px;
+		padding-bottom: 104px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+/*	
+  ========================================
+  Напишіть нам
+  ========================================
+*/	
+	.bg_section_6{
+		background: url(../img/section_6/contact-us.jpg) 0 0 no-repeat;
+		background-size: cover;
+	}
+	.section_6{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+	}
+	.text_6_1{
+		font-size: 36px;
+		margin-bottom: 10px;
+		font-weight: 400;
+		color: #ffffff;
+	}	
+	.text_6_2{
+		font-size: 18px;
+		margin-bottom: 56px;
+		line-height: 24px;
+    	letter-spacing: 0.3px;
+    	color: #ffffff;
+	}
+	.label_1{
+		display: none;
+	}
+	.flex_container_6{
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	.item_6{
+		width: 100%;
+		
+	}
+	.item_6_1{
+		margin-bottom: 0;
+	}
+	.item_6_2{
+		text-align: left;
+		padding-left: 88px;
+	}
+	.item_6_s{
+		
+	}
+	.item_s_1{
+		width: 65%;
+	}
+	.item_s_s{
+		width: 35%;
+	}
+	.text_6_3{
+		font-size: 22px;
+    	line-height: 1.27;
+  		color: #ffffff;
+  		margin-bottom: 10px;
+  		font-weight: 400;
+  		text-align: left;
+	}
+	.text_6_4{
+		text-transform: uppercase;
+		font-size: 12px;
+  		color: rgba(255, 255, 255, 0.5); 
+  		margin-bottom: 16px;
+	}
+	.text_6_5{
+		font-size: 16px;
+		line-height: 1.5;
+		color: #ffffff;
+		margin-bottom: 24px;
+	}
+	.flex_container_6_s{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.item_6{
+		width: 100%;
+	}
+	.item_6_1{
+		text-align: left;
+	}
+	.item_6_2{
+		text-align: left;
+	}
+	.item_6_s{
+		width: 100%;
+	}
+/*	
+  ========================================
+  Стили формы
+  ========================================
+*/	
+	form{
+		width: 100%;
+	}	
+	textarea{
+		height: 90px;
+		max-height: 120px;
+		border-radius: 8px;
+		margin: 10px 0 32px 0;
+		padding: 10px 16px 10px 16px;
+	}
+/*	
+  ========================================
+  Тут Ви можете сказати дякую
+  ========================================
+*/	
+	.section_7{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+	.text_7_2{
+		width: 100%;
+	}
+/*	
+  ========================================
+  Footer
+  ========================================
+*/	
+	.section_8{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		text-align: center;
+	}
+	.flex_container_footer_1{
+		margin-bottom: 52px;
+	}	
+	.flex_container_footer_2{
+		display: none;
+	}
+	.item_footer_1{
+		width: 33.333%;
+	}	
+/*	
+  ========================================
+  Стили кнопок
+  ========================================
+*/
+	.btn_1_1{
+		margin-right: 26px;
+	}
+	.btn_2_1:hover{
+		background-position: 0 0;
+	}
+	.btn_2_2:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4:hover{
+		background-position: 0 0;
+	}
+	/*Черный цвет соц сетей*/
+	.btn_2_1_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4_black:hover{
+		background-position: 0 0;
+	}
+/*	
+  ========================================
+  Партнеры
+  ========================================
+*/
+	a.proizd:hover {
+		background: url(../img/partners/Proizd_Sprite.svg) 0% 0% no-repeat;
+	}
+	a.karpaty:hover {
+		background: url(../img/partners/Karpaty_Sprite.svg) 0% 0% no-repeat;
+	}
+	a.hottels:hover {
+		background: url(../img/partners/Hotels_Sprite.svg) 0% 0% no-repeat;
+	}	
+}
+@media screen and (min-width:880px) and (max-width: 939px){
+/*
+  ========================================
+  Команда
+  ========================================
+*/	
+	.bg_section_4 {
+		background-color: #ffffff;
+	}
+	.section_4{
+		padding-top: 104px;
+		text-align: center;
+	}
+	.flex_container_4 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item_4{
+		width: 50%;
+	}
+	.item_4_1{
+		text-align: left;
+	}
+	.item_4_2{
+		
+	}
+	/*TabBar*/
+	ul.tab-control{
+		list-style: none;
+		margin-bottom: 50px;
+	}
+	ul.tab-control li {
+		display: inline-block;
+		width: 42px;
+    	height: 42px;
+    	background-color: #ccc;
+    	border-radius: 100px;
+    	cursor: pointer;
+	}
+	ul.tab-content{
+		list-style: none;
+	}
+	.text4_1{
+		font-size: 30px;
+    	color: #454545;
+    	font-weight: 400;
+    	margin-bottom: 16px;
+	}
+	.text4_2{
+		font-size: 20px;
+	    letter-spacing: 0.8px;
+	    color: #454545;
+	    margin-bottom: 10px;
+	}
+	.text4_3{
+		width: 90%;
+		font-size: 16px;
+	    line-height: 1.5;
+	    color: #454545;
+	    margin-bottom: 32px;
+	}
+	/*Таб от Сани*/
+	.tab_wrapper{
+		margin-bottom: 48px;
+	}
+
+	.tab_control {
+	    height: 40px;
+	    width: 40px;
+	    border-radius: 40px;
+	    margin-right: 10px;
+	    opacity: 0.5;
+	}
+	.cur_tab_control {
+	    opacity: 1;
+	}
+	.story {
+	    display: none;
+	}
+	.cur_story {
+	    display: inline-block;
+	}
+	.pics{
+		width: 90%;
+		height: auto;
+		border-radius: 8px;
+		box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.25);
+	}
+	.line_4_1{
+		width: 64px;
+		margin: 0 auto 24px 0;
+		height: 2px;
+		background-color: #f07723;
+		color: #f07723;
+		border: none;
+	}
+}
+@media screen and (min-width:940px) and (max-width: 1195px){
+/*
+  ========================================
+  Общие стили
+  ========================================
+*/
+	.container {
+		width: 100%;
+		padding: 0 25px;
+	}
+/*
+  ========================================
+  Хедер
+  ========================================
+*/
+	.text1_1{
+		font-size: 36px;
+	}
+	.down_centr{
+		position: absolute;
+		top: 50%;
+		height: 220px;
+		margin-top: -110px;
+	}
+	.margin_r{
+		margin-right: 0;
+	}
+	a.tel:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+/*
+  ========================================
+  Меню	
+  ========================================
+*/
+	nav {
+	    width: 100%;
+		margin: 0;
+		padding: 0 25px;
+	}
+/*
+  ========================================
+  Про нас
+  ========================================
+*/	
+	.section_2{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+	.text_2_2{
+	    width: 60%;
+	}
+	.flex_container_2_1{
+		flex-flow: row nowrap;
+		margin-bottom: 56px;
+	}
+	.flex_container_2_2{
+		flex-flow: row nowrap;
+	}
+	.item_2{
+		width: 100%;
+	}
+	.item_2_1{
+		text-align: left;
+		padding-top: 0;
+	}
+	.item_2_2{
+		text-align: center;
+		margin-bottom: 56px;
+	}
+	.item_2_3{
+		margin-bottom: 56px;
+	}
+	.item_2_3 img{
+		width: 90%;
+		height: auto;
+	}
+	.item_2_4{
+		text-align: left;
+	}
+	.text_2_5{
+		margin-bottom: 0;
+		width: 95%;
+	}	
+	/*video{
+		width: 100%;
+		height: auto;	
+	}
+	object{
+		width: 100%;
+		height: auto;	
+	}*/
+	div.movie figure {
+		height: 0;
+		padding-bottom: 56.25%; /* 16:9 */
+		position: relative;
+		width: 100%;
+	}
+	div.movie iframe {
+	    height: 100%;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 100%;
+	}
+/*
+  ========================================
+  Як ми працюємо
+  ========================================
+*/	
+	.section_3{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+	.text_3_2{
+	    margin-bottom: 64px;
+	}
+	.flex_container_3_1{
+		flex-flow: row nowrap;
+		margin-bottom: 64px;
+	}
+	.item_3_1{
+		width: 100%;
+		text-align: center;
+	}
+	.item_3_1 img{
+		width: 90%;
+		height: auto;
+	}
+	.item_3_1_1{
+		width: 100%;
+		text-align: left;
+		margin: 0;
+	} 
+	.item_3_1_2{
+		margin-bottom: 64px;
+	} 
+	.item_3_2_2{
+		margin-bottom: 32px;
+	}
+	.text_3_4{
+	    width: 95%;
+	}
+	.text_3_6{
+    	width: 100%;
+	}
+/*
+  ========================================
+  Команда
+  ========================================
+*/	
+	.bg_section_4{
+		background-color: #ffffff;
+	}
+	.section_4{
+		padding-top: 104px;
+		text-align: center;
+	}
+	.flex_container_4{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item_4{
+		width: 50%;
+	}
+	.item_4_1{
+		text-align: left;
+	}
+	.item_4_2{
+		text-align: right;
+	}
+	/*TabBar*/
+	ul.tab-control{
+		list-style: none;
+		margin-bottom: 50px;
+	}
+	ul.tab-control li {
+		display: inline-block;
+		width: 42px;
+    	height: 42px;
+    	background-color: #ccc;
+    	border-radius: 100px;
+    	cursor: pointer;
+	}
+	ul.tab-content{
+		list-style: none;
+	}
+	.text4_1{
+		font-size: 30px;
+    	color: #454545;
+    	font-weight: 400;
+    	margin-bottom: 16px;
+	}
+	.text4_2{
+		font-size: 20px;
+	    letter-spacing: 0.8px;
+	    color: #454545;
+	    margin-bottom: 10px;
+	}
+	.text4_3{
+		width: 90%;
+		font-size: 16px;
+	    line-height: 1.5;
+	    color: #454545;
+	    margin-bottom: 32px;
+	}
+	/*Таб от Сани*/
+	.tab_wrapper{
+		margin-bottom: 48px;
+	}
+
+	.tab_control {
+	    height: 40px;
+	    width: 40px;
+	    border-radius: 40px;
+	    margin-right: 10px;
+	    opacity: 0.5;
+	}
+	.cur_tab_control {
+	    opacity: 1;
+	}
+	.story {
+	    display: none;
+	}
+	.cur_story {
+	    display: inline-block;
+	}
+	.pics{
+		width: 90%;
+		height: auto;
+		border-radius: 8px;
+		box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.25);
+	}
+	.line_4_1{
+		width: 64px;
+		margin: 0 auto 24px 0;
+		height: 2px;
+		background-color: #f07723;
+		color: #f07723;
+		border: none;
+	}
+/*	
+  ========================================
+  Отзивы о нас
+  ========================================
+*/	
+	.comments{
+		width: 680px;
+		margin: 0 auto;
+	}
+	.section_5{
+		text-align: center;
+		padding-top: 104px;
+		padding-bottom: 104px;
+	}
+/*	
+  ========================================
+  Напишіть нам
+  ========================================
+*/	
+	.bg_section_6{
+		background: url(../img/section_6/contact-us.jpg) 0 0 no-repeat;
+		background-size: cover;
+	}
+	.section_6{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+	}
+	.text_6_1{
+		font-size: 36px;
+		margin-bottom: 10px;
+		font-weight: 400;
+		color: #ffffff;
+	}	
+	.text_6_2{
+		font-size: 18px;
+		margin-bottom: 56px;
+		line-height: 24px;
+    	letter-spacing: 0.3px;
+    	color: #ffffff;
+	}
+	.label_1{
+		display: none;
+	}
+	.flex_container_6{
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	.item_6{
+		width: 100%;
+		
+	}
+	.item_6_1{
+		margin-bottom: 64px;
+	}
+	.item_6_2{
+		text-align: left;
+	}
+	.item_6_s{
+		
+	}
+	.item_s_1{
+		width: 65%;
+	}
+	.item_s_s{
+		width: 35%;
+	}
+	.text_6_3{
+		font-size: 22px;
+    	line-height: 1.27;
+  		color: #ffffff;
+  		margin-bottom: 10px;
+  		font-weight: 400;
+  		text-align: left;
+	}
+	.text_6_4{
+		text-transform: uppercase;
+		font-size: 12px;
+  		color: rgba(255, 255, 255, 0.5); 
+  		margin-bottom: 16px;
+	}
+	.text_6_5{
+		font-size: 16px;
+		line-height: 1.5;
+		color: #ffffff;
+		margin-bottom: 24px;
+	}
+	.flex_container_6_s{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item_6{
+		width: 50%;
+	}
+	.item_6_1{
+		text-align: left;
+	}
+	.item_6_2{
+		text-align: left;
+	}
+	.item_6_s{
+		width: 50%;
+	}
+/*	
+  ========================================
+  Стили формы
+  ========================================
+*/	
+	form{
+		width: 80%;
+	}	
+/*	
+  ========================================
+  Тут Ви можете сказати дякую
+  ========================================
+*/	
+	.section_7{
+		padding-top: 104px;
+		padding-bottom: 104px;
+		text-align: center;
+	}
+/*	
+  ========================================
+  Footer
+  ========================================
+*/	
+	.section_8{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		text-align: center;
+	}	
+/*	
+  ========================================
+  Партнеры
+  ========================================
+*/
+	a.proizd:hover {
+		background: url(../img/partners/Proizd_Sprite.svg) 0% 0% no-repeat;
+	}
+	a.karpaty:hover {
+		background: url(../img/partners/Karpaty_Sprite.svg) 0% 0% no-repeat;
+	}
+	a.hottels:hover {
+		background: url(../img/partners/Hotels_Sprite.svg) 0% 0% no-repeat;
+	}	
+/*	
+  ========================================
+  Стили кнопок
+  ========================================
+*/
+	.btn_1_1{
+		margin-right: 26px;
+	}
+	.btn_2_1:hover{
+		background-position: 0 0;
+	}
+	.btn_2_2:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4:hover{
+		background-position: 0 0;
+	}
+	/*Черный цвет соц сетей*/
+	.btn_2_1_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_3_black:hover{
+		background-position: 0 0;
+	}
+	.btn_2_4_black:hover{
+		background-position: 0 0;
+	}
+}
+@media screen and (min-width:768px) and (max-width: 1070px){
+/*
+  ========================================
+  Як ми працюємо
+  ========================================
+*/
+	.item_3_2{
+		width: 330px;
+	}
+	.item_3_2_1{
+		margin-bottom: 32px;
+		margin-right: 16px;
+	}
+	.item_3_2_2{
+		margin-bottom: 32px;
+	}
+}
